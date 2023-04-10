@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ img{
+     width: 100%;
+ }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #c6c6c6 solid 1px;
+    padding: 5px 15px;
+    
+}
+.oldagram{
+    width: 130px;
+}
+
+.user-pic,
+.prof-pic{
+    width: 40px;
+    border-radius: 50%;
+}
+.prof-pic{
+
+}
+.bod-one{
+    display: flex;
+    margin: 10px;
+}
+.text-one{
+display: inline-flex;
+flex-direction: column;
+margin: 6px;
+
+}
+.bod-one h3{
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+}
+.location{
+    display: inline-block;
+    margin: 0;
+    font-size: 11px;
+}
+.icons{
+    width: 30px;
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+.iconid:hover{
+    opacity: 0.5;
+}
+.iconid{
+    padding: 10px;
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+}
+.footer p{
+    margin: 10px 15px 20px 15px;
+    font-size: 15px
+}
+.likes{
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+}
